@@ -2,7 +2,7 @@ Summary:	GNOME SuperUser is a GTK frontend to su
 Summary(pl):	GNOME SuperUser jest graficzn± nak³adk± na program su
 Name:		gnomesu
 Version:	0.3.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/xsu/%{name}-%{version}.tar.gz
@@ -29,6 +29,7 @@ roota w ¶rodowisku GNOME.
 %patch0 -p1
 
 %build
+cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
