@@ -9,6 +9,7 @@ Source0:	http://dl.sourceforge.net/xsu/%{name}-%{version}.tar.gz
 # Source0-md5:	8ebcf248b4f8430c96d80379ec2acdd8
 Patch0:		%{name}-desktop.patch
 URL:		http://xsu.sourceforge.net/
+BuildRequires:	automake
 BuildRequires:	libglade2-devel
 BuildRequires:	libgnomeui-devel
 BuildRequires:	libzvt-devel >= 1.0
