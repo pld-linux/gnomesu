@@ -13,6 +13,6 @@ diff -urN aa/gnomesu-0.3.1/xsu.desktop.in gnomesu-0.3.1/xsu.desktop.in
 -MultipleArgs=false
  Type=Application
 -Categories=Application;System;
-+Categories=System;
++Categories=GTK;GNOME;System;
  Icon=gnome-warning.png
 +# vi: encoding=utf-8
