@@ -1,4 +1,4 @@
-Summary:	GNOME SuperUser is a GTK frontend to su
+Summary:	GNOME SuperUser is a GTK+ frontend to su
 Summary(pl):	GNOME SuperUser jest graficzn± nak³adk± na program su
 Name:		gnomesu
 Version:	0.3.1
@@ -17,7 +17,7 @@ Requires:	/bin/su
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GNOME SuperUser is a GTK frontend to su and as such an easy way to run
+GNOME SuperUser is a GTK+ frontend to su and as such an easy way to run
 a program as root in the GNOME environment. It is based on xsu.
 
 %description -l pl
