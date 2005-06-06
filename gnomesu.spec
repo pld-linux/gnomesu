@@ -13,6 +13,7 @@ BuildRequires:	automake
 BuildRequires:	libglade2-devel
 BuildRequires:	libgnomeui-devel >= 2.10.0-2
 BuildRequires:	libzvt-devel >= 1.0
+BuildRequires:	pkgconfig
 Requires:	/bin/su
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
