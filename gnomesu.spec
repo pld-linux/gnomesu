@@ -1,5 +1,5 @@
 Summary:	GNOME SuperUser is a GTK+ frontend to su
-Summary(pl.UTF-8):   GNOME SuperUser jest graficzną nakładką na program su
+Summary(pl.UTF-8):	GNOME SuperUser jest graficzną nakładką na program su
 Name:		gnomesu
 Version:	0.3.1
 Release:	3
